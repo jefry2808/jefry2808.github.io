@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jefri & Ona Wedding</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!--tulisan-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- symplecountdown -->
+    <link rel="stylesheet" href="countdown\simplyCountdown.theme.default.css"/>
+    <script src="countdown\simplyCountdown.min.js"></script>
+
+    <!-- boostrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <!--tampilan awal-->
+    <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
+        <main>
+            <h4>Kepada Bapak/Ibu/Saudara/i, </h4>
+            <h1>Jefri Blegur & Flora Amung</h1>
+            <p>Akan melangsungkan resepsi pernikahan dalam:</p>
+            <!-- untuk memangil countdown -->
+            <div class="simply-countdown"></div>
+            <a href="#home" class="btn btn-lg mt-4" onclick="anableScroll()">Lihat Undangan</a>
+        </main>
+    </section>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">Jefri & Ona</a>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Jefri & Ona</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="navbar-nav ms-auto">
+                      <a class="nav-link" href="#home">Home</a>
+                      <a class="nav-link" href="#info">Info</a>
+                      <a class="nav-link" href="#galery">Galeri</a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Menu Home -->
+      <section id="home" class="home">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2>Acara Pernikahan</h2>
+                    <h3>Tuhan membuat segala sesuatu indah pada waktunya, <br>
+                    indah saat Dia mempertemukan, indah saat Dia menumbuhkan kasih, <br>
+                  dan indah saat Dia mempersatukan putra-putri kami dalam suatu ikatan pernikahan Kudus.</h3>
+                    <p>Oleh Karena itu, dengan segala hormat, kami bermaksud mengundang
+                        Bapak/Ibu/Saudara/i, <br> untuk hadir pada acara pernikahan anak kami.
+                    </p>
+                </div>
+            </div>
+
+            <!-- untuk mempelai laki2 dan perempuan -->
+            <div class="row couple">
+                <!-- colom untuk pria -->
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-8 text-end">
+                            <h3>Jefry Ariyanto Blegur</h3>
+                            <p>Putra dari bapak Daniel Blegur <br> dan <br> Ibu Meri N. Pandhu</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="img/jefri.JPG" alt="Jefri Blegur" class="img-responsive rounded-circle">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- tampilan icon love -->
+                <span class="heart"><i class="bi bi-heart-fill"></i></span>
+
+                <!-- colom untuk wanita -->
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="img/ona.JPG" alt="Flora Amung" class="img-responsive rounded-circle">
+                        </div>
+                        <div class="col-8">
+                            <h3>Flora Betharia Amung</h3>
+                            <p>Putra dari bapak Yefta Amung <br> dan <br> Ibu Debrina Lelang</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section id="info" class="info">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-md10 text-center">
+                    <h2>Informasi Acara</h2>
+                    <br>
+                    <p class="alamat">Alamat : Rumah Bapak Yefta Amung, belakang kantor pencatatan sipil, <br>
+                        depan rumah Bapak Drs. Amon Djobo</p>
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3948.8651379121693!2d124.547783!3d-8.216315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMTInNTguNyJTIDEyNMKwMzInNTIuMCJF!5e0!3m2!1sid!2sid!4v1696866841650!5m2!1sid!2sid" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        <a href="https://maps.app.goo.gl/4NbUxcXGyNWHvk3w8" target="_blank" class="btn btn-light btn-sm my-3">Klik Untuk Membuka Peta</a>
+                        <p class="deskripsi">Diharapkan untuk para hadirin tidak salah alamat dan tanggal, manakala tiba
+                            ditujuan namun tidak ada <br> 
+                            tanda-tanda sedang dilangsungkan pernikahan, boleh jadi anda salah jadwal, atau
+                            salah tempat.</p>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-5 col-10">
+                    <div class="card text-center text-bg-light mb-5">
+                        <div class="card-header">
+                          Pemberkatan Nikah
+                        </div>
+                        <div class="card-body">
+                          <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <i class="bi bi-clock d-block"></i>
+                                <span>08.00 - 10.00</span>
+                            </div>
+                            <div class="col-md-6">
+                                <i class="bi bi-calendar d-block"></i>
+                                <span>Jumat, 03 November 2023</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          Gereja GMIT Ichtus Puilon
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-5 col-10">
+                    <div class="card text-center text-bg-light">
+                        <div class="card-header">
+                          Resepsi
+                        </div>
+                        <div class="card-body">
+                          <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <i class="bi bi-clock d-block"></i>
+                                <span>16.00 - Selesai</span>
+                            </div>
+                            <div class="col-md-6">
+                                <i class="bi bi-calendar d-block"></i>
+                                <span>Jumat, 03 November 2023</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          Rumah Bapak Yefta Amung
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section id="galery" class="galery">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8 col-10 text-center">
+              <span>Memory Kisah Kami</span>
+              <h2>Galeri Foto</h2>
+            </div>
+          </div>
+
+          <div class="row row-cols-md-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+            <!-- foto galery 1 -->
+            <div class="col mt-3">
+              <a href="img/galery/ona3.jpg" data-toggle="lightbox" data-caption="" data-gallery="mygallery">
+                <img src="img/galery/ona3.jpg" alt="Jefri & Ona" class="img-fluid w-100 rouded">
+              </a>
+            </div>
+            <!-- foto galery 2 -->
+            <div class="col mt-3">
+              <a href="img/galery/ona4.JPG" data-toggle="lightbox" data-caption="" data-gallery="mygallery">
+                <img src="img/galery/ona4.JPG" alt="Jefri & Ona" class="img-fluid w-100 rouded">
+              </a>
+            </div>
+            <!-- foto galery 3 -->
+            <div class="col mt-3">
+              <a href="img/galery/ona6.JPG" data-toggle="lightbox" data-caption="" data-gallery="mygallery">
+                <img src="img/galery/ona6.JPG" alt="Jefri & Ona" class="img-fluid w-100 rouded">
+              </a>
+            </div>
+            <!-- foto galery 4 -->
+            <div class="col mt-3">
+              <a href="img/galery/ona11.jpg" data-toggle="lightbox" data-caption="" data-gallery="mygallery">
+                <img src="img/galery/ona11.jpg" alt="Jefri & Ona" class="img-fluid w-100 rouded">
+              </a>
+            </div>
+            <!-- foto galery 5 -->
+            <div class="col mt-3">
+              <a href="img/galery/ona12.JPG" data-toggle="lightbox" data-caption="" data-gallery="mygallery">
+                <img src="img/galery/ona12.JPG" alt="Jefri & Ona" class="img-fluid w-100 rouded">
+              </a>
+            </div>
+            <!-- foto galery 6 -->
+            <div class="col mt-3">
+              <a href="img/galery/ona13.JPG" data-toggle="lightbox" data-caption="" data-gallery="mygallery">
+                <img src="img/galery/ona13.JPG" alt="Jefri & Ona" class="img-fluid w-100 rouded">
+              </a>
+            </div>
+            <!-- foto galery 7 -->
+            <div class="col mt-3">
+              <a href="img/galery/ona15.JPG" data-toggle="lightbox" data-caption="" data-gallery="mygallery">
+                <img src="img/galery/ona15.JPG" alt="Jefri & Ona" class="img-fluid w-100 rouded">
+              </a>
+            </div>
+            <!-- foto galery 8 -->
+            <div class="col mt-3">
+              <a href="img/galery/ona18.JPG" data-toggle="lightbox" data-caption="" data-gallery="mygallery">
+                <img src="img/galery/ona18.JPG" alt="Jefri & Ona" class="img-fluid w-100 rouded">
+              </a>
+            </div>
+            <!-- foto galery 9 -->
+            <div class="col mt-3">
+              <a href="img/galery/ona20.jpg" data-toggle="lightbox" data-caption="" data-gallery="mygallery">
+                <img src="img/galery/ona20.jpg" alt="Jefri & Ona" class="img-fluid w-100 rouded">
+              </a>
+            </div>
+            <!-- foto galery 10 -->
+            <div class="col mt-3">
+              <a href="img/galery/ona21.jpg" data-toggle="lightbox" data-caption="" data-gallery="mygallery">
+                <img src="img/galery/ona21.jpg" alt="Jefri & Ona" class="img-fluid w-100 rouded">
+              </a>
+            </div>
+            <!-- foto galery 11 -->
+            <div class="col mt-3">
+              <a href="img/galery/ona25.jpg" data-toggle="lightbox" data-caption="" data-gallery="mygallery">
+                <img src="img/galery/ona25.jpg" alt="Jefri & Ona" class="img-fluid w-100 rouded">
+              </a>
+            </div>
+            <!-- foto galery 12 -->
+            <div class="col mt-3">
+              <a href="img/galery/ona26.jpg" data-toggle="lightbox" data-caption="" data-gallery="mygallery">
+                <img src="img/galery/ona26.jpg" alt="Jefri & Ona" class="img-fluid w-100 rouded">
+              </a>
+            </div>
+            <!-- foto galery 13 -->
+            <div class="col mt-3">
+              <a href="img/galery/ona29.jpg" data-toggle="lightbox" data-caption="" data-gallery="mygallery">
+                <img src="img/galery/ona29.jpg" alt="Jefri & Ona" class="img-fluid w-100 rouded">
+              </a>
+            </div>
+            <!-- foto galery 14 -->
+              <div class="col mt-3">
+              <a href="img/galery/ona32.jpg" data-toggle="lightbox" data-caption="" data-gallery="mygallery">
+                <img src="img/galery/ona32.jpg" alt="Jefri & Ona" class="img-fluid w-100 rouded">
+              </a>
+            </div>
+            <!-- foto galery 15 -->
+            <div class="col mt-3">
+              <a href="img/galery/ona34.jpg" data-toggle="lightbox" data-caption="" data-gallery="mygallery">
+                <img src="img/galery/ona34.jpg" alt="Jefri & Ona" class="img-fluid w-100 rouded">
+              </a>
+            </div>
+            <!-- foto galery 16 -->
+            <div class="col mt-3">
+              <a href="img/galery/ona35.jpg" data-toggle="lightbox" data-caption="" data-gallery="mygallery">
+                <img src="img/galery/ona35.jpg" alt="Jefri & Ona" class="img-fluid w-100 rouded">
+              </a>
+            </div>
+            <!-- foto galery 17 -->
+            <div class="col mt-3">
+              <a href="img/galery/ona36.jpg" data-toggle="lightbox" data-caption="" data-gallery="mygallery">
+                <img src="img/galery/ona36.jpg" alt="Jefri & Ona" class="img-fluid w-100 rouded">
+              </a>
+            </div>
+            <!-- foto galery 18 -->
+            <div class="col mt-3">
+              <a href="img/galery/ona37.jpg" data-toggle="lightbox" data-caption="" data-gallery="mygallery">
+                <img src="img/galery/ona37.jpg" alt="Jefri & Ona" class="img-fluid w-100 rouded">
+              </a>
+            </div>
+            <!-- foto galery 19 -->
+            <div class="col mt-3">
+              <a href="img/galery/ona39.jpg" data-toggle="lightbox" data-caption="" data-gallery="mygallery">
+                <img src="img/galery/ona39.jpg" alt="Jefri & Ona" class="img-fluid w-100 rouded">
+              </a>
+            </div>
+            <!-- foto galery 20 -->
+            <div class="col mt-3">
+              <a href="img/galery/ona40.jpg" data-toggle="lightbox" data-caption="" data-gallery="mygallery">
+                <img src="img/galery/ona40.jpg" alt="Jefri & Ona" class="img-fluid w-100 rouded">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <small class="block">&copy; 2023 wedding. all rights Reserved.</small>
+              <small class="block">Design by <a href="https://instagram.com/jefry_amung">@jefry_amung</a></small>
+            </div>
+
+            <ul class="mt-3 text-center">
+              <li><a href="https://instagram.com/jefry_amung"><i class="bi bi-instagram"></i></a></li>
+              <li><a href="https://www.youtube.com/channel/UCApLvJJuACWMTupniAw8cig"><i class="bi bi-youtube"></i></a></li>
+              <li><a href="https://www.facebook.com/jefri.amung"><i class="bi bi-facebook"></i></a></li>
+              <li><a href="https://www.tiktok.com/@inggrid_voju"><i class="bi bi-tiktok"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      
+      <div id="audio-container">
+        <audio id="song" autoplay loop>
+          <source src="audio/save-and-sound.mp3" type="audio/mp3">
+        </audio>
+
+        <div class="audio-icon-wrapper" style="display: none;">
+          <i class="bi bi-disc"></i>
+        </div>
+      </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+    <!-- tampilan waktu -->
+    <script>
+        simplyCountdown('.simply-countdown', {
+            year: 2023, // required
+            month: 11, // required
+            day: 3, // required
+            hours: 8, // Default is 0 [0-23] integer
+            words: { //words displayed into the countdown
+                days: { singular: 'Hari', plural: 'Hari' },
+                hours: { singular: 'jam', plural: 'jam' },
+                minutes: { singular: 'Menit', plural: 'Menit' },
+                seconds: { singular: 'Detik', plural: 'Detik' }
+            },
+        });
+    </script>
+
+    <script>
+        const stickyTop = document.querySelector('.sticky-top');
+        const offcanvas = document.querySelector('.offcanvas');
+
+        offcanvas.addEventListener('show.bs.offcanvas', function (){
+            stickyTop.style.overflow = 'visible';
+        });
+        
+        offcanvas.addEventListener('hidden.bs.offcanvas', function (){
+            stickyTop.style.overflow = 'hidden';
+        });
+    </script>
+
+    <script>
+      
+      const rootElement = document.querySelector(":root");
+      const audioIconWrapper = document.querySelector('.audio-icon-wrapper');
+      const audioIcon = document.querySelector('.audio-icon-wrapper i');
+      const song = document.querySelector('#song');
+      let isPlaying = false;
+
+      function disableScroll() {
+        scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+
+        window.onscroll = function() {
+          window.scrollTo(scrollTop, scrollLeft);
+        }
+
+        rootElement.style.scrollBehavior = 'auto';
+      }
+
+      function anableScroll() {
+        window.onscroll = function() { }
+        rootElement.style.scrollBehavior = 'smooth';
+        // localStorage.setItem('opened', 'true');
+        playAudio ();
+      }
+
+      function playAudio() {
+        //song.volume = 0.1;
+        audioIconWrapper.style.display = 'flex';
+        song.play();
+        isPlaying = true;
+      }
+
+      audioIconWrapper.onclick = function() {
+        if(isPlaying) {
+          song.pause();
+          audioIcon.classList.remove('bi-disc');
+          audioIcon.classList.add('bi-pause-circle');
+        }else {
+          song.play();
+          audioIcon.classList.add('bi-disc');
+          audioIcon.classList.remove('bi-pause-circle');
+        }
+
+        isPlaying = !isPlaying;
+      }
+
+      
+
+      //if(!localStorage.getItem('opened')){
+      //  disableScroll();
+      //}
+      disableScroll();
+
+    </script>
+
+  </body>
+</html>
